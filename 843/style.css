@@ -1,0 +1,114 @@
+.box{
+    width: 600px;
+    height: 595px;
+    margin: 50px auto;
+}
+.item{
+    width: 55px;
+    height: 55px;
+    background-color: #DD4527;
+    margin: 5px;
+    animation: move 3s infinite ;
+}
+@keyframes move{
+    0%{
+        margin-left: 0;
+        background-color: #DD4527;
+    }
+    25%{
+        background-color: purple; 
+        background-color: blue;
+    }
+    50%{
+        margin-left: 540px;
+        background-color: blue;
+        border-radius: 50px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+.item-1{
+    animation: move 3s infinite ;
+    animation-delay: 0.1s;
+}
+.item-2{
+    animation: move 3s infinite ;
+    animation-delay: 0.2s;
+}
+.item-3{
+    animation: move 3s infinite ;
+    animation-delay: 0.3s;
+}
+.item-4{
+    animation: move 3s infinite ;
+    animation-delay: 0.3s;
+}
+.item-4{
+    animation: move 3s infinite ;
+    animation-delay: 0.4s;
+}
+.item-5{
+    animation: move 3s infinite ;
+    animation-delay: 0.5s;
+}
+.item-6{
+    animation: move 3s infinite ;
+    animation-delay: 0.6s;
+}
+.item-7{
+    animation: move 3s infinite ;
+    animation-delay: 0.7s;
+}
+.item-8{
+    animation: move 3s infinite ;
+    animation-delay: 0.8s;
+}
+.item-9{
+    animation: move 3s infinite ;
+    animation-delay: 0.9s;
+}
+.block{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    animation: move-1 3s infinite;
+    background-color: purple;
+}
+@keyframes move-1{
+    0%{
+        background-color: black;
+        border-radius: 50px;
+    }
+    25%{
+        margin-left: 500px;
+        margin-top: 500px;
+        transform: rotate(1800deg);
+        background-color: blue;
+        border-radius: 0px;
+        width: 80px;
+        height: 80px;
+    }
+    50%{
+        margin-left: 530px;
+        margin-top: 0px;
+        background-color: green;
+        border-radius: 50px;
+        width: 60px;
+        height: 60px;
+    }
+    75%{
+        margin-top: 500px;
+        margin-left: 0px;
+        background-color: #DD4527;
+        border-radius: 0px;
+        width: 30px;
+        height: 30px;
+    }
+    100%{
+        border-radius: 50px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
